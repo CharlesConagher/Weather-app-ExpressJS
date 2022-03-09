@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka&display=swap" rel="stylesheet">
+    <title>Weather App</title>
+</head>
+<body>
+<section class="weather">
+    <div class="weather__container">
+        <div class="input">
+            <label for="input__city">Choose your city:</label>
+            <input type="text" class="input__city" id="input__city" value="">
+            <button class="input__button">Submit</button>
+        </div>
+        <div class="current">
+            <div class="current__city">Somwhere</div>
+            <div class="current__desc">none</div>
+            <div class="current__icon"></div>
+            <div class="current__temp">00</div>
+        </div>
+        <div class="details">
+            <ul class="details__row">
+                <li class="details__item">
+                    <div class="details__name">feels like:</div>
+                    <div class="details__value feels-like">0</div>
+                </li>
+                <li class="details__item">
+                    <div class="details__name">pressure:</div>
+                    <div class="details__value pressure">0</div>
+                </li>
+            </ul>
+            <ul class="details__row">
+                <li class="details__item">
+                    <div class="details__name">humidity:</div>
+                    <div class="details__value humidity">0</div>
+                </li>
+                <li class="details__item">
+                    <div class="details__name">wind:</div>
+                    <div class="details__value wind">0</div>
+                </li>
+            </ul>
+        </div>
+        <ul class="forecast">
+            <li class="forecast__item">
+                <div class="forecast__time">Now</div>
+                <div class="forecast__desc">none</div>
+                <div class="forecast__temp">0&deg;</div> 
+            </li>
+
+            <li class="forecast__item">
+                <div class="forecast__time">00:00</div>
+                <div class="forecast__desc">none</div>
+                <div class="forecast__temp">0&deg;</div> 
+            </li>
+
+            <li class="forecast__item">
+                <div class="forecast__time">00:00</div>
+                <div class="forecast__desc">none</div>
+                <div class="forecast__temp">0&deg;</div> 
+            </li>
+
+            <li class="forecast__item">
+                <div class="forecast__time">00:00</div>
+                <div class="forecast__desc">none</div>
+                <div class="forecast__temp">0&deg;</div> 
+            </li>
+
+            <li class="forecast__item">
+                <div class="forecast__time">00:00</div>
+                <div class="forecast__desc">none</div>
+                <div class="forecast__temp">0&deg;</div> 
+            </li>
+
+            <li class="forecast__item">
+                <div class="forecast__time">00:00</div>
+                <div class="forecast__desc">none</div>
+                <div class="forecast__temp">00&deg;</div> 
+            </li>
+        </ul>
+    </div>
+</section>    
+<script src="js/script.js"></script>
+</body>
+</html>

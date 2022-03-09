@@ -1,0 +1,231 @@
+ul {
+  list-style: none;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  color: #000;
+}
+
+html {
+  font-family: Fredoka, sans-serif;
+  background-color: #ffffff;
+}
+
+.weather {
+  width: 100%;
+  min-height: 100vh;
+}
+
+.weather__container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 1em;
+}
+
+.input {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+}
+
+.input__city {
+  display: block;
+  width: 500px;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  margin-bottom: 25px;
+}
+
+@media (max-width: 425px) {
+  .input__city {
+    width: 250px;
+  }
+}
+
+.input__button {
+  width: 100px;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  margin-bottom: 25px;
+}
+
+.current {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  margin-bottom: 2em;
+}
+
+.current__city {
+  font-size: 3em;
+}
+
+.current__desc {
+  font-size: 1.5em;
+}
+
+.current__temp {
+  font-size: 4em;
+}
+
+.forecast {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 2em;
+}
+
+@media (max-width: 425px) {
+  .forecast {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+.forecast__item {
+  text-align: center;
+  border: 1px solid #000;
+  border-radius: 10px;
+}
+
+.forecast__desc {
+  margin: 1em 0;
+}
+
+.forecast__time {
+  margin: 1em 0;
+}
+
+.forecast__temp {
+  font-size: 1.5em;
+}
+
+.icon__01d,
+.icon__02d,
+.icon__03d,
+.icon__04d,
+.icon__09d,
+.icon__10d,
+.icon__11d,
+.icon__13d,
+.icon__50d {
+  background-size: 50px;
+  background-repeat: no-repeat;
+}
+
+.icon__01d {
+  background-image: url("../img/01d.png");
+}
+
+.icon__02d {
+  background-image: url("../img/02d.png");
+}
+
+.icon__03d {
+  background-image: url("../img/03d.png");
+}
+
+.icon__04d {
+  background-image: url("../img/04d.png");
+}
+
+.icon__09d {
+  background-image: url("../img/09d.png");
+}
+
+.icon__10d {
+  background-image: url("../img/10d.png");
+}
+
+.icon__11d {
+  background-image: url("../img/11d.png");
+}
+
+.icon__13d {
+  background-image: url("../img/13d.png");
+}
+
+.icon__50d {
+  background-image: url("../img/50d.png");
+}
+
+.details__row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 2em;
+}
+
+@media (max-width: 425px) {
+  .details__row {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+.details__item {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  border: 1px solid #000;
+  border-radius: 10px;
+  margin: 0 20px;
+}
+
+@media (max-width: 425px) {
+  .details__item {
+    margin: 20px 0;
+  }
+}
+
+.details__name {
+  margin-right: 20px;
+}
+
+.details__value {
+  font-size: 1.5em;
+}
+/*# sourceMappingURL=main.css.map */
