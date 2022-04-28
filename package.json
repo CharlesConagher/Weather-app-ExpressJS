@@ -10,15 +10,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/CharlesConagher/Weather-app-NativeJS.git"
+    "url": "git+https://github.com/CharlesConagher/Weather-app-NodeJS.git"
   },
   "keywords": [],
   "author": "CharlesConager",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/CharlesConagher/Weather-app-NativeJS/issues"
+    "url": "https://github.com/CharlesConagher/Weather-app-NodeJS/issues"
   },
-  "homepage": "https://github.com/CharlesConagher/Weather-app-NativeJS#readme",
+  "homepage": "https://github.com/CharlesConagher/Weather-app-NodeJS#readme",
   "dependencies": {
     "dotenv": "^16.0.0",
     "express": "^4.17.3",
