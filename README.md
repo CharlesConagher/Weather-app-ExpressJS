@@ -1,3 +1,6 @@
-# Weather-app-NativeJS
+# Weather-app-NodeJS
 This small app downloads info about weather from OpenWeather.
-You can open it here: https://charlesconagher.github.io/Weather-app-NativeJS/
+There is two options:
+  1. Current weather and forecast on 5 days by geolocation from browser
+  2. Current weather and forecast on 5 days from search by city name
+Also the background will change depending on what city you searching
