@@ -1,0 +1,30 @@
+{
+  "name": "weather_app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CharlesConagher/Weather-app-NativeJS.git"
+  },
+  "keywords": [],
+  "author": "CharlesConager",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CharlesConagher/Weather-app-NativeJS/issues"
+  },
+  "homepage": "https://github.com/CharlesConagher/Weather-app-NativeJS#readme",
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "node-fetch": "^3.2.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
