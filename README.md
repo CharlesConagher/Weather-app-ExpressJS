@@ -1,4 +1,4 @@
-# Weather-app-NodeJS
+# Weather-app-ExpressJS
 This small app downloads info about weather from OpenWeather.
 There is two options:
   1. Current weather and forecast on 5 days by geolocation from browser
