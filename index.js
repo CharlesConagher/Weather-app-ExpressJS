@@ -5,7 +5,7 @@ import dotenv from 'dotenv'
 dotenv.config()
 const app = express()
 
-const PORT = process.env.PORT ?? 3000
+const PORT = process.env.PORT || 3000
 const __dirname = path.resolve()
 app.use('/public', express.static(__dirname + '/public'))
 app.use(express.json({limit: '1mb' }));
